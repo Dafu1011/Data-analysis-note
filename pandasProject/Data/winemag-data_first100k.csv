@@ -1,0 +1,101 @@
+﻿country,description,designation,points,price,province,region_1,region_2,variety,winery
+Italy,This is a sample wine description 1 with rich flavors and a long finish.,Vineyard B 9,86,1461.92,Rioja,Region 2,Sub-region 3,Zinfandel,Penfolds
+France,This is a sample wine description 2 with rich flavors and a long finish.,Vineyard E 5,99,1278.74,California,Region 2,Sub-region 1,Riesling,Henschke
+Chile,This is a sample wine description 3 with rich flavors and a long finish.,Vineyard E 7,94,1775.55,Rioja,Region 2,Sub-region 3,Cabernet Sauvignon,Domaine de la Romanée-Conti
+US,This is a sample wine description 4 with rich flavors and a long finish.,Vineyard E 7,90,949.71,Bordeaux,Region 2,Sub-region 1,Merlot,Cloudy Bay
+US,This is a sample wine description 5 with rich flavors and a long finish.,Vineyard C 4,87,247.99,Mosel,Region 4,Sub-region 2,Riesling,Caymus
+Spain,This is a sample wine description 6 with rich flavors and a long finish.,Vineyard B 9,86,1429.36,Rioja,Region 1,Sub-region 3,Riesling,Torres
+Italy,This is a sample wine description 7 with rich flavors and a long finish.,Vineyard D 2,98,1523.96,Rioja,Region 2,Sub-region 3,Sangiovese,Cloudy Bay
+Portugal,This is a sample wine description 8 with rich flavors and a long finish.,Vineyard A 2,90,1126.94,Marlborough,Region 3,Sub-region 3,Cabernet Sauvignon,Penfolds
+Italy,This is a sample wine description 9 with rich flavors and a long finish.,Vineyard B 3,90,1544.22,Barossa Valley,Region 4,Sub-region 3,Sangiovese,Caymus
+New Zealand,This is a sample wine description 10 with rich flavors and a long finish.,Vineyard D 10,83,992.65,Mendoza,Region 2,Sub-region 2,Riesling,Cloudy Bay
+Australia,This is a sample wine description 11 with rich flavors and a long finish.,Vineyard A 7,87,1050.24,Catalonia,Region 3,Sub-region 1,Zinfandel,Domaine de la Romanée-Conti
+France,This is a sample wine description 12 with rich flavors and a long finish.,Vineyard D 10,82,860.81,Barossa Valley,Region 2,Sub-region 1,Cabernet Sauvignon,Torres
+France,This is a sample wine description 13 with rich flavors and a long finish.,Vineyard D 9,81,60.58,Catalonia,Region 1,Sub-region 3,Sauvignon Blanc,Antinori
+Italy,This is a sample wine description 14 with rich flavors and a long finish.,Vineyard C 9,91,224.7,Mendoza,Region 4,Sub-region 2,Syrah,Penfolds
+US,This is a sample wine description 15 with rich flavors and a long finish.,Vineyard A 2,85,72.54,Mosel,Region 1,Sub-region 1,Riesling,Torres
+US,This is a sample wine description 16 with rich flavors and a long finish.,Vineyard E 5,81,1276.46,Tuscany,Region 4,Sub-region 1,Riesling,Cloudy Bay
+Portugal,This is a sample wine description 17 with rich flavors and a long finish.,Vineyard C 2,80,635.57,Mendoza,Region 2,Sub-region 1,Malbec,Antinori
+New Zealand,This is a sample wine description 18 with rich flavors and a long finish.,Vineyard C 7,91,1022.06,Douro,Region 2,Sub-region 1,Malbec,Vega Sicilia
+France,This is a sample wine description 19 with rich flavors and a long finish.,Vineyard B 8,91,1816.06,Barossa Valley,Region 4,Sub-region 1,Sangiovese,Torres
+Portugal,This is a sample wine description 20 with rich flavors and a long finish.,Vineyard A 5,96,506.09,Bordeaux,Region 3,Sub-region 1,Merlot,Vega Sicilia
+US,This is a sample wine description 21 with rich flavors and a long finish.,Vineyard E 3,89,826.66,California,Region 3,Sub-region 2,Zinfandel,Caymus
+Portugal,This is a sample wine description 22 with rich flavors and a long finish.,Vineyard E 2,95,1513.55,Douro,Region 2,Sub-region 3,Merlot,Catena Zapata
+Australia,This is a sample wine description 23 with rich flavors and a long finish.,Vineyard C 9,94,465.31,Rioja,Region 2,Sub-region 1,Syrah,Henschke
+US,This is a sample wine description 24 with rich flavors and a long finish.,Vineyard E 4,94,163.19,Rioja,Region 1,Sub-region 2,Riesling,Caymus
+Germany,This is a sample wine description 25 with rich flavors and a long finish.,Vineyard B 6,98,586.61,Bordeaux,Region 2,Sub-region 2,Zinfandel,Antinori
+New Zealand,This is a sample wine description 26 with rich flavors and a long finish.,Vineyard B 9,91,330.83,Bordeaux,Region 4,Sub-region 3,Cabernet Sauvignon,Antinori
+Chile,This is a sample wine description 27 with rich flavors and a long finish.,Vineyard E 1,99,1860.1,Marlborough,Region 3,Sub-region 3,Riesling,Torres
+France,This is a sample wine description 28 with rich flavors and a long finish.,Vineyard E 6,82,1618.16,Catalonia,Region 3,Sub-region 1,Sauvignon Blanc,Henschke
+Spain,This is a sample wine description 29 with rich flavors and a long finish.,Vineyard D 1,84,1270.47,Marlborough,Region 1,Sub-region 3,Riesling,Catena Zapata
+Australia,This is a sample wine description 30 with rich flavors and a long finish.,Vineyard A 6,98,1744.21,Mendoza,Region 3,Sub-region 3,Pinot Noir,Cloudy Bay
+Argentina,This is a sample wine description 31 with rich flavors and a long finish.,Vineyard C 4,86,1609.31,Tuscany,Region 3,Sub-region 2,Zinfandel,Opus One
+Chile,This is a sample wine description 32 with rich flavors and a long finish.,Vineyard A 4,88,381.27,Barossa Valley,Region 5,Sub-region 2,Pinot Noir,Penfolds
+Spain,This is a sample wine description 33 with rich flavors and a long finish.,Vineyard E 2,86,1786.19,Bordeaux,Region 4,Sub-region 2,Sangiovese,Catena Zapata
+US,This is a sample wine description 34 with rich flavors and a long finish.,Vineyard A 8,97,1083.29,Catalonia,Region 5,Sub-region 1,Malbec,Antinori
+Argentina,This is a sample wine description 35 with rich flavors and a long finish.,Vineyard A 9,83,1616.81,Barossa Valley,Region 3,Sub-region 1,Cabernet Sauvignon,Opus One
+Italy,This is a sample wine description 36 with rich flavors and a long finish.,Vineyard B 3,93,1793.22,Mendoza,Region 1,Sub-region 3,Riesling,Antinori
+Italy,This is a sample wine description 37 with rich flavors and a long finish.,Vineyard D 9,97,642.83,Tuscany,Region 1,Sub-region 3,Sangiovese,Henschke
+Australia,This is a sample wine description 38 with rich flavors and a long finish.,Vineyard B 5,88,229.0,Douro,Region 3,Sub-region 1,Sangiovese,Henschke
+Italy,This is a sample wine description 39 with rich flavors and a long finish.,Vineyard E 10,81,463.59,Marlborough,Region 2,Sub-region 1,Cabernet Sauvignon,Torres
+Argentina,This is a sample wine description 40 with rich flavors and a long finish.,Vineyard D 4,99,859.94,Mendoza,Region 5,Sub-region 2,Chardonnay,Cloudy Bay
+Argentina,This is a sample wine description 41 with rich flavors and a long finish.,Vineyard E 4,94,1637.85,Rioja,Region 3,Sub-region 1,Riesling,Domaine de la Romanée-Conti
+New Zealand,This is a sample wine description 42 with rich flavors and a long finish.,Vineyard C 7,86,1722.85,Marlborough,Region 1,Sub-region 1,Pinot Noir,Antinori
+Chile,This is a sample wine description 43 with rich flavors and a long finish.,Vineyard C 8,91,23.83,California,Region 1,Sub-region 3,Zinfandel,Cloudy Bay
+France,This is a sample wine description 44 with rich flavors and a long finish.,Vineyard E 8,87,1026.39,Marlborough,Region 5,Sub-region 3,Pinot Noir,Vega Sicilia
+Germany,This is a sample wine description 45 with rich flavors and a long finish.,Vineyard A 4,94,840.65,Mendoza,Region 4,Sub-region 2,Cabernet Sauvignon,Antinori
+Portugal,This is a sample wine description 46 with rich flavors and a long finish.,Vineyard B 2,82,451.99,Bordeaux,Region 3,Sub-region 1,Syrah,Opus One
+Italy,This is a sample wine description 47 with rich flavors and a long finish.,Vineyard C 1,93,248.53,Tuscany,Region 3,Sub-region 3,Riesling,Cloudy Bay
+Australia,This is a sample wine description 48 with rich flavors and a long finish.,Vineyard E 9,96,681.85,Mendoza,Region 4,Sub-region 1,Sauvignon Blanc,Catena Zapata
+Italy,This is a sample wine description 49 with rich flavors and a long finish.,Vineyard B 10,83,1886.39,Bordeaux,Region 5,Sub-region 1,Merlot,Cloudy Bay
+Portugal,This is a sample wine description 50 with rich flavors and a long finish.,Vineyard B 1,97,653.17,Bordeaux,Region 5,Sub-region 2,Zinfandel,Catena Zapata
+Chile,This is a sample wine description 51 with rich flavors and a long finish.,Vineyard A 1,87,1042.39,Marlborough,Region 1,Sub-region 1,Sauvignon Blanc,Henschke
+New Zealand,This is a sample wine description 52 with rich flavors and a long finish.,Vineyard B 2,83,1409.01,Tuscany,Region 4,Sub-region 2,Sauvignon Blanc,Catena Zapata
+Argentina,This is a sample wine description 53 with rich flavors and a long finish.,Vineyard A 6,81,733.62,Mendoza,Region 5,Sub-region 3,Riesling,Caymus
+New Zealand,This is a sample wine description 54 with rich flavors and a long finish.,Vineyard A 9,85,1943.85,Mendoza,Region 2,Sub-region 3,Syrah,Domaine de la Romanée-Conti
+US,This is a sample wine description 55 with rich flavors and a long finish.,Vineyard B 5,89,1925.27,Rioja,Region 3,Sub-region 3,Riesling,Caymus
+Italy,This is a sample wine description 56 with rich flavors and a long finish.,Vineyard D 4,83,511.05,Catalonia,Region 1,Sub-region 3,Syrah,Opus One
+France,This is a sample wine description 57 with rich flavors and a long finish.,Vineyard E 3,97,999.52,Barossa Valley,Region 4,Sub-region 2,Chardonnay,Penfolds
+US,This is a sample wine description 58 with rich flavors and a long finish.,Vineyard E 10,91,608.75,Catalonia,Region 1,Sub-region 2,Zinfandel,Opus One
+Chile,This is a sample wine description 59 with rich flavors and a long finish.,Vineyard D 4,81,576.83,Mendoza,Region 5,Sub-region 3,Cabernet Sauvignon,Torres
+Italy,This is a sample wine description 60 with rich flavors and a long finish.,Vineyard D 7,89,83.41,Marlborough,Region 5,Sub-region 3,Malbec,Antinori
+US,This is a sample wine description 61 with rich flavors and a long finish.,Vineyard B 2,83,1223.03,Douro,Region 2,Sub-region 3,Cabernet Sauvignon,Caymus
+Italy,This is a sample wine description 62 with rich flavors and a long finish.,Vineyard A 7,93,1010.33,Mendoza,Region 3,Sub-region 2,Sauvignon Blanc,Opus One
+Australia,This is a sample wine description 63 with rich flavors and a long finish.,Vineyard C 7,95,112.44,California,Region 4,Sub-region 3,Merlot,Antinori
+Chile,This is a sample wine description 64 with rich flavors and a long finish.,Vineyard D 8,94,564.51,Bordeaux,Region 1,Sub-region 2,Chardonnay,Antinori
+Germany,This is a sample wine description 65 with rich flavors and a long finish.,Vineyard A 2,87,1817.45,Mosel,Region 3,Sub-region 1,Cabernet Sauvignon,Antinori
+Argentina,This is a sample wine description 66 with rich flavors and a long finish.,Vineyard A 7,93,486.73,Mendoza,Region 5,Sub-region 3,Cabernet Sauvignon,Domaine de la Romanée-Conti
+Spain,This is a sample wine description 67 with rich flavors and a long finish.,Vineyard C 2,87,298.34,California,Region 3,Sub-region 2,Merlot,Penfolds
+Argentina,This is a sample wine description 68 with rich flavors and a long finish.,Vineyard B 4,95,984.01,California,Region 1,Sub-region 2,Merlot,Catena Zapata
+Argentina,This is a sample wine description 69 with rich flavors and a long finish.,Vineyard B 9,92,1971.44,Barossa Valley,Region 3,Sub-region 2,Cabernet Sauvignon,Opus One
+US,This is a sample wine description 70 with rich flavors and a long finish.,Vineyard D 3,97,491.69,Tuscany,Region 5,Sub-region 1,Sangiovese,Torres
+Chile,This is a sample wine description 71 with rich flavors and a long finish.,Vineyard D 3,94,1347.55,Mendoza,Region 3,Sub-region 3,Pinot Noir,Opus One
+Italy,This is a sample wine description 72 with rich flavors and a long finish.,Vineyard C 8,92,1525.62,Tuscany,Region 4,Sub-region 2,Merlot,Catena Zapata
+New Zealand,This is a sample wine description 73 with rich flavors and a long finish.,Vineyard B 2,88,482.9,Douro,Region 3,Sub-region 3,Pinot Noir,Henschke
+Spain,This is a sample wine description 74 with rich flavors and a long finish.,Vineyard D 9,94,1459.15,Marlborough,Region 4,Sub-region 2,Zinfandel,Cloudy Bay
+Portugal,This is a sample wine description 75 with rich flavors and a long finish.,Vineyard A 1,92,741.89,Mosel,Region 3,Sub-region 3,Chardonnay,Antinori
+US,This is a sample wine description 76 with rich flavors and a long finish.,Vineyard E 1,80,1268.29,Marlborough,Region 5,Sub-region 1,Sangiovese,Caymus
+Spain,This is a sample wine description 77 with rich flavors and a long finish.,Vineyard A 4,86,1270.72,California,Region 2,Sub-region 2,Merlot,Caymus
+Germany,This is a sample wine description 78 with rich flavors and a long finish.,Vineyard B 7,88,1076.19,Bordeaux,Region 2,Sub-region 2,Zinfandel,Cloudy Bay
+Australia,This is a sample wine description 79 with rich flavors and a long finish.,Vineyard D 8,80,189.68,Bordeaux,Region 4,Sub-region 1,Syrah,Torres
+Chile,This is a sample wine description 80 with rich flavors and a long finish.,Vineyard B 7,91,1672.25,Tuscany,Region 4,Sub-region 3,Sauvignon Blanc,Caymus
+Portugal,This is a sample wine description 81 with rich flavors and a long finish.,Vineyard A 3,87,648.35,Marlborough,Region 2,Sub-region 2,Pinot Noir,Cloudy Bay
+US,This is a sample wine description 82 with rich flavors and a long finish.,Vineyard D 1,90,381.17,California,Region 5,Sub-region 1,Sangiovese,Cloudy Bay
+Argentina,This is a sample wine description 83 with rich flavors and a long finish.,Vineyard D 5,98,91.14,Barossa Valley,Region 5,Sub-region 2,Sangiovese,Antinori
+France,This is a sample wine description 84 with rich flavors and a long finish.,Vineyard D 5,96,1185.88,Rioja,Region 3,Sub-region 2,Chardonnay,Catena Zapata
+US,This is a sample wine description 85 with rich flavors and a long finish.,Vineyard D 9,87,1358.35,Marlborough,Region 4,Sub-region 2,Pinot Noir,Catena Zapata
+France,This is a sample wine description 86 with rich flavors and a long finish.,Vineyard D 3,82,43.01,Tuscany,Region 5,Sub-region 3,Syrah,Catena Zapata
+Argentina,This is a sample wine description 87 with rich flavors and a long finish.,Vineyard B 5,82,1029.07,Mosel,Region 1,Sub-region 1,Chardonnay,Opus One
+Australia,This is a sample wine description 88 with rich flavors and a long finish.,Vineyard B 1,80,460.73,Tuscany,Region 3,Sub-region 1,Sangiovese,Penfolds
+Chile,This is a sample wine description 89 with rich flavors and a long finish.,Vineyard E 9,84,1293.89,California,Region 3,Sub-region 1,Cabernet Sauvignon,Opus One
+Italy,This is a sample wine description 90 with rich flavors and a long finish.,Vineyard A 6,89,356.99,Mendoza,Region 2,Sub-region 1,Syrah,Cloudy Bay
+US,This is a sample wine description 91 with rich flavors and a long finish.,Vineyard A 1,86,1384.97,Barossa Valley,Region 4,Sub-region 2,Sangiovese,Penfolds
+New Zealand,This is a sample wine description 92 with rich flavors and a long finish.,Vineyard E 8,88,779.6,California,Region 5,Sub-region 3,Riesling,Caymus
+Argentina,This is a sample wine description 93 with rich flavors and a long finish.,Vineyard E 9,86,1874.09,Barossa Valley,Region 5,Sub-region 1,Riesling,Vega Sicilia
+US,This is a sample wine description 94 with rich flavors and a long finish.,Vineyard B 1,88,283.67,Catalonia,Region 3,Sub-region 3,Merlot,Opus One
+Germany,This is a sample wine description 95 with rich flavors and a long finish.,Vineyard E 2,87,688.72,Catalonia,Region 4,Sub-region 1,Chardonnay,Opus One
+Australia,This is a sample wine description 96 with rich flavors and a long finish.,Vineyard B 2,91,235.81,Bordeaux,Region 4,Sub-region 1,Sangiovese,Antinori
+Germany,This is a sample wine description 97 with rich flavors and a long finish.,Vineyard E 2,81,1850.14,Barossa Valley,Region 4,Sub-region 2,Merlot,Catena Zapata
+Spain,This is a sample wine description 98 with rich flavors and a long finish.,Vineyard B 7,80,1755.91,Marlborough,Region 2,Sub-region 2,Chardonnay,Henschke
+Chile,This is a sample wine description 99 with rich flavors and a long finish.,Vineyard A 10,95,523.3,Mosel,Region 5,Sub-region 2,Syrah,Caymus
+Spain,This is a sample wine description 100 with rich flavors and a long finish.,Vineyard B 10,84,1323.37,Rioja,Region 4,Sub-region 3,Sangiovese,Henschke
