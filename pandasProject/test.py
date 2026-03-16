@@ -1,72 +1,64 @@
+import pandas as pd
+import numpy as np
+from datetime import datetime, timedelta
 import random
-import csv
-from faker import Faker
 
-# 初始化Faker(zh_CN用于生成中文城市名)
-fake = Faker('zh_CN')
-Faker.seed(42)  # 固定随机种子保证可复现
-random.seed(42)
+# ---------------------- 配置参数 ----------------------
+np.random.seed(42)  # 固定随机种子，保证结果可复现
+years = [2015, 2016, 2017, 2018]
+# 各年份数据记录数
+record_counts = {2015: 30774, 2016: 41278, 2017: 50839, 2018: 81349}
+# 生成基础会员ID池（保证跨年份可重复下单）
+total_members = 20000  # 总会员数
+member_ids = [f"{random.randint(10 ** 10, 10 ** 11 - 1)}" for _ in range(total_members)]
 
-# 配置各字段枚举与分布
-CITIES = ["北京", "上海", "广州", "深圳", "杭州", "成都", "重庆", "武汉", "南京", "西安"]
-CHANNELS = ["网购", "自提", "门店购买"]
-GENDERS = ["男", "女"]
-AGE_GROUPS = ["青年", "中年", "老年"]
-WEEKEND_IND = ["周末", "周间"]
-PRODUCTS = ["电子产品", "服装鞋帽", "食品生鲜", "家居日用", "美妆护肤", "运动户外"]
+# ---------------------- 1. 生成各年份订单数据 ----------------------
+year_dfs = {}
+for year in years:
+    n = record_counts[year]
+    data = []
+    for _ in range(n):
+        member_id = random.choice(member_ids)
+        order_id = f"{random.randint(10 ** 10, 10 ** 11 - 1)}"  # 11位纯数字订单号
+        # 生成该年份随机日期
+        start_date = datetime(year, 1, 1)
+        end_date = datetime(year, 12, 31)
+        days_diff = (end_date - start_date).days
+        random_days = random.randint(0, days_diff)
+        submit_date = (start_date + timedelta(days=random_days)).strftime("%Y/%m/%d")
 
-# 定义列名
-headers = [
-    "store_id", "city", "channel", "gender_group", "age_group",
-    "wkd_ind", "product", "customer", "revenue", "order", "quant", "unit_cost"
-]
+        # 生成订单金额：包含正常金额、NA值、异常值（<1元）
+        rand = random.random()
+        if rand < 0.02:  # 2% 概率为NA
+            order_amount = np.nan
+        elif rand < 0.05:  # 3% 概率为异常值（<1元）
+            order_amount = round(random.uniform(0.01, 0.99), 8)
+        else:  # 95% 概率为正常金额（参考示例金额范围）
+            order_amount = round(random.choice([
+                99, 199, 299, 399, 599, 899, 1299, 1999, 2599, 3599, 3646, 3999
+            ]) + random.uniform(0, 0.99999999), 8)
 
+        data.append([member_id, order_id, submit_date, order_amount])
 
-def generate_row():
-    """生成单条模拟数据"""
-    store_id = random.randint(10000, 99999)  # 门店随机ID
-    city = random.choice(CITIES)
-    channel = random.choice(CHANNELS)
-    gender_group = random.choice(GENDERS)
+    # 构造DataFrame
+    df = pd.DataFrame(data, columns=["会员ID", "订单号", "提交日期", "订单金额"])
+    year_dfs[year] = df
+    print(
+        f"✅ {year}年数据生成完成，共{len(df)}条记录，NA值数量：{df['订单金额'].isna().sum()}，异常值数量：{(df['订单金额'] < 1).sum()}")
 
-    # 年龄段分布(青年70%、中年25%、老年5%)
-    age_group = random.choices(AGE_GROUPS, weights=[0.7, 0.25, 0.05])[0]
+# ---------------------- 2. 生成会员等级表 ----------------------
+member_level_data = []
+for member_id in member_ids:
+    # 会员等级：1-4级，数字越大等级越高，按权重分布
+    level = np.random.choice([1, 2, 3, 4], p=[0.5, 0.3, 0.15, 0.05])
+    member_level_data.append([member_id, level])
+member_level_df = pd.DataFrame(member_level_data, columns=["会员ID", "会员等级"])
+print(f"✅ 会员等级表生成完成，共{len(member_level_df)}条记录")
 
-    wkd_ind = random.choice(WEEKEND_IND)
-    product = random.choice(PRODUCTS)
+# ---------------------- 3. 写入Excel文件 ----------------------
+with pd.ExcelWriter("Data/rfm_data.xlsx", engine="openpyxl") as writer:
+    for year in years:
+        year_dfs[year].to_excel(writer, sheet_name=str(year), index=False)
+    member_level_df.to_excel(writer, sheet_name="会员等级", index=False)
 
-    # 客户数(1-500)
-    customer = random.randint(1, 500)
-
-    # 订单数(与客户数正相关)
-    order = random.randint(1, min(customer, 200))
-
-    # 购买数量(与订单数正相关)
-    quant = random.randint(1, max(10, order * 2))
-
-    # 销售额(结合客单价与数量，不同品类差异)
-    price_map = {
-        "电子产品": (1500, 8000), "服装鞋帽": (80, 500),
-        "食品生鲜": (15, 80), "家居日用": (30, 200),
-        "美妆护肤": (120, 600), "运动户外": (200, 1500)
-    }
-    min_price, max_price = price_map[product]
-    revenue = round(quant * random.uniform(min_price, max_price), 2)
-
-    # 单位成本(销售额的30%-60%)
-    unit_cost = round(revenue / quant * random.uniform(0.3, 0.6), 2)
-
-    return [
-        store_id, city, channel, gender_group, age_group,
-        wkd_ind, product, customer, revenue, order, quant, unit_cost
-    ]
-
-
-# 生成2000条数据并写入CSV
-if __name__ == "__main__":
-    with open("sales_data.csv", "w", newline="", encoding="utf-8") as f:
-        writer = csv.writer(f)
-        writer.writerow(headers)  # 写入表头
-        for _ in range(2000):
-            writer.writerow(generate_row())
-    print("✅ 2000条模拟数据已生成至 sales_data.csv")
+print("\n🎉 完整数据文件 rfm_model_full_data.xlsx 已生成完成！")
